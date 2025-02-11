@@ -11,9 +11,9 @@ const Navbar = () => {
             </figure>
             <div>
               <ul className="ulitems flex items-center gap-8 relative">
-                <li className="text-xl tracking-[0.2rem] uppercase cursor-pointer list1">What Founders Say</li>
-                <li className="text-xl tracking-[0.2rem] uppercase cursor-pointer list2"> Manifesto</li>
-                <li className="text-xl tracking-[0.2rem] uppercase cursor-pointer list3">About Us</li>
+                <li className="text-xl tracking-[0.2rem] relative uppercase cursor-pointer list1">What Founders Say</li>
+                <li className="text-xl tracking-[0.2rem] relative uppercase cursor-pointer list2"> Manifesto</li>
+                <li className="text-xl tracking-[0.2rem] relative uppercase cursor-pointer list3">About Us</li>
                 <li><button className="btn">Tell us About you</button></li>
               </ul>
             </div>
@@ -31,9 +31,9 @@ const Navbar = () => {
         </nav>
           <div className="border-t-[1.3px] border-b-[1.3px] border-black py-4">
               <ul className="ulitems flex justify-center items-center gap-3 relative">
-                <li className="sm:text-lg text-sm tracking-[0.2rem] uppercase cursor-pointer list1">What Founders Say</li>
-                <li className="sm:text-lg text-sm tracking-[0.2rem] uppercase cursor-pointer list2"> Manifesto</li>
-                <li className="sm:text-lg text-sm tracking-[0.2rem] uppercase cursor-pointer list3">About Us</li>
+                <li className="sm:text-lg relative text-sm tracking-[0.2rem] uppercase cursor-pointer list1">What Founders Say</li>
+                <li className="sm:text-lg relative text-sm tracking-[0.2rem] uppercase cursor-pointer list2"> Manifesto</li>
+                <li className="sm:text-lg relative text-sm tracking-[0.2rem] uppercase cursor-pointer list3">About Us</li>
                 <li></li>
               </ul>
             </div>

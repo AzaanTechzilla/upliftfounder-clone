@@ -8,7 +8,7 @@ const Herosection = () => {
     <div className="hero-wrapper">
         <div className="container mx-auto relative">
             <div className='px-5'>
-            <h1 className=" font-black  uppercase block py-3 md:py-[5rem] lg:py-1" style={{lineHeight: '0.75', fontSize: "clamp(80px , 20vw, 300px)"}}>
+            <h1 className=" font-black  uppercase block py-3 md:py-[5rem] lg:py-5" style={{lineHeight: '0.75', fontSize: "clamp(80px , 20vw, 300px)"}}>
                We <strong className='inline lg:ml-[94px]' >Uplift</strong> Founders
             </h1>
             <p className="md:w-[80%] font-extralight mb-4" style={{fontSize: "clamp(20px , 4.5vw, 82px)", lineHeight: "1"}}>

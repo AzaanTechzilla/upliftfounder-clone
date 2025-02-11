@@ -6,34 +6,19 @@
   background-color: rgb(107 89 225 / 84%);
   transform: translateY(-1px);
 }
+
 .ulitems li:hover{
   color: rgb(107, 89, 225);
   transition: all.3s;
 }
-.ulitems .list1:hover::before{
+.ulitems li:hover::before{
 content: "";
 background-color: rgb(107 89 225 / 84%);
 position: absolute;
-width: 14rem;
+width: 100%;
 height: 2px;
-bottom: 15px;
+bottom: 0;
 transition: all.3s
-}
-.ulitems .list2:hover::before{
-content: "";
-background-color: rgb(107 89 225 / 84%);
-position: absolute;
-width: 8rem;
-height: 2px;
-bottom: 15px;
-}
-.ulitems .list3:hover::before{
-content: "";
-background-color: rgb(107 89 225 / 84%);
-position: absolute;
-width: 6rem;
-height: 2px;
-bottom: 15px;
 }
 
 @media screen and  (min-width: 640px) { 
