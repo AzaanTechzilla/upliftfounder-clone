@@ -1,0 +1,53 @@
+.btn{
+  @apply text-xl uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+}
+.btn:hover{
+  transition: all.4s;
+  background-color: rgb(107 89 225 / 84%);
+  transform: translateY(-1px);
+}
+.ulitems li:hover{
+  color: rgb(107, 89, 225);
+  transition: all.3s;
+}
+.ulitems .list1:hover::before{
+content: "";
+background-color: rgb(107 89 225 / 84%);
+position: absolute;
+width: 14rem;
+height: 2px;
+bottom: 15px;
+transition: all.3s
+}
+.ulitems .list2:hover::before{
+content: "";
+background-color: rgb(107 89 225 / 84%);
+position: absolute;
+width: 8rem;
+height: 2px;
+bottom: 15px;
+}
+.ulitems .list3:hover::before{
+content: "";
+background-color: rgb(107 89 225 / 84%);
+position: absolute;
+width: 6rem;
+height: 2px;
+bottom: 15px;
+}
+
+@media screen and  (min-width: 640px) { 
+  .btn{
+    @apply text-xl uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+  }
+ }
+ @media screen and  (min-width: 768px) { 
+  .btn{
+    @apply text-xl uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+  }
+ }
+ @media screen and (min-width: 1024px) {
+  .btn{
+    @apply text-xl uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+  }
+  }
