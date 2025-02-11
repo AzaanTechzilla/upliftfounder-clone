@@ -22,14 +22,14 @@ const Navbar = () => {
       </header>
       <header className=" block lg:hidden md:py-5 lg:py-7 md:px-2 lg:px-5 ">
         <nav className="container mx-auto">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between my-2">
             <figure>
               <img src={Logo} alt="Logo" />
             </figure>
             <button className="btn">Tell us About you</button>
           </div>
         </nav>
-          <div className="border-t-[1.3px] border-b-[1.3px] border-black py-4 my-3">
+          <div className="border-t-[1.3px] border-b-[1.3px] border-black py-4">
               <ul className="ulitems flex justify-center items-center gap-3 relative">
                 <li className="sm:text-lg text-sm tracking-[0.2rem] uppercase cursor-pointer list1">What Founders Say</li>
                 <li className="sm:text-lg text-sm tracking-[0.2rem] uppercase cursor-pointer list2"> Manifesto</li>
