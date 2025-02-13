@@ -29,7 +29,7 @@ const Slider = () => {
     <section className="section2">
       <div className="section2-wrapper">
         <div className="container mx-auto px-4">
-          <div className="flex h-screen items-center justify-start mt-5 lg:justify-center flex-col lg:flex-row relative">
+          <div className="flex py-5 md:py-12 items-center justify-start mt-5 lg:justify-center flex-col lg:flex-row relative">
             <div className="w-full lg:w-1/2 flex justify-center ">
               <Swiper
                 effect={"cards"}

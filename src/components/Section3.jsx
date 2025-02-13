@@ -6,8 +6,8 @@ const Section3 = () => {
       <section className="section3 bg-secondary">
         <div className="section3-wrapper">
           <div className="container mx-auto">
-            <div className="flex lg:flex-row flex-col" style={{minHeight: "calc(100vh - 15vh)"}}>
-            <div className="content basis-[100%] lg:basis-[50%] self-center px-4">
+            <div className="flex py-5 md:py-0 lg:flex-row flex-col">
+            <div className="content basis-[100%] lg:basis-[50%] self-center px-4 md:py-[5rem]">
               <p className="text-[2rem] lg:text-[3rem] leading-none font-sofia font-light">Building a successful company can feel like a rollercoaster ride. Compassion alone won't get you there.</p>
               <p className="text-[3rem] lg:text-[5rem] font-black uppercase">We will.</p>
             </div>
