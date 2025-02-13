@@ -12,7 +12,8 @@ export default {
       },
       colors: {
         btn: '#6b5ee1',
-        primary: "#f7edd4"
+        primary: "#f7edd4",
+        secondary: "#c9c995"
       },
     },
   },

@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Herosection from './components/Herosection'
 import Slider from './components/Slider'
+import Section3 from './components/Section3'
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
   <Navbar />
   <Herosection />
   <Slider />
+  <Section3 />
+
     </>
   )
 }

@@ -35,12 +35,13 @@ const Slider = () => {
                 effect={"cards"}
                 grabCursor={true}
                 modules={[EffectCards]}
+                loop={true}
                 className="w-[90%] h-auto"
               >
                 {testimonials.map((testimonial, index) => (
                   <SwiperSlide
                     key={index}
-                    className="flex items-center justify-center rounded-2xl text-2xl font-bold bg-primary border-2 border-black "
+                    className="flex items-center justify-center rounded-2xl text-2xl font-bold bg-primary border-[1.3px] border-black "
                   >
                     <div className=" p-3 md:p-6 lg:p-10 text-center">
                       <figure className="flex justify-center gap-2">

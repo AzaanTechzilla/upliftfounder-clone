@@ -1,7 +1,18 @@
 import React from 'react'
 import Heroimg1 from "../assets/hero-image-1.webp"
 import Heroimg2 from "../assets/team-group.webp"
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 const Herosection = () => {
+  useGSAP(()=>{
+    gsap.to('.figure-animate',{
+      y: 20,
+      duration: 1,
+      ease: 'power.inOut',
+      yoyo: true,
+      repeat: -1,
+    })
+  },[])
   return (
     <>
       <section className='herosection'>
@@ -16,10 +27,10 @@ const Herosection = () => {
             </p>
             <button className="btn btn-primary">Tell us about you</button>
             </div>
-            <figure className='absolute sm:top-0 z-[-1] w-[10%] hidden md:block ' style={{left: "calc(100% - 75%)"}}>
+            <figure className='figure-animate absolute sm:top-0 z-[-1] w-[10%] hidden md:block ' style={{left: "calc(100% - 75%)"}}>
               <img src={Heroimg1} alt="" className='w-full h-full' />
             </figure>
-            <figure className='absolute bottom-[10%] z-[-1] w-[17%] right-[5%] hidden md:block'>
+            <figure className=' figure-animate absolute bottom-[10%] z-[-1] w-[17%] right-[5%] hidden md:block'>
               <img src={Heroimg2} alt="" />
             </figure>
         </div>
