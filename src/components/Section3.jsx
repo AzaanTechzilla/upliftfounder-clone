@@ -12,7 +12,7 @@ const Section3 = () => {
               <p className="text-[3rem] lg:text-[5rem] font-black uppercase">We will.</p>
             </div>
             <div className="image basis-[100%] lg:basis-[50%] self-start px-2">
-              <figure className="w-full h-full">
+              <figure className="w-[70%] h-auto">
                 <img src={Videogif} alt="Gif" className="w-full h-full" />
               </figure>
             </div>

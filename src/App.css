@@ -20,7 +20,30 @@ height: 2px;
 bottom: 0;
 transition: all.3s
 }
-
+.dark .tab-nav{
+  @apply border-b-[1.3px] border-primary
+}
+.light .tab-nav{
+  @apply border-b-[1.3px] border-black
+}
+.dark .tab{
+  @apply bg-black text-primary
+}
+.light .tab{
+  @apply bg-transparent border-[1.3px] border-black
+}
+.dark h5{
+  @apply text-primary
+}
+.light h5{
+  @apply text-black
+}
+.dark .modebtn{
+  @apply text-primary uppercase font-medium rounded-full
+}
+.light .modebtn{
+  @apply text-black text-lg uppercase font-medium px-3 py-2 rounded-full
+}
 @media screen and  (min-width: 640px) { 
   .btn{
     @apply text-sm uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
