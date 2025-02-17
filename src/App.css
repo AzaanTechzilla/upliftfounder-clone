@@ -20,33 +20,48 @@ height: 2px;
 bottom: 0;
 transition: all.3s
 }
-.dark .tab-nav{
+.right-content::before{
+  content: url('./assets/column.svg');
+  position:absolute;
+  top: -10%;
+  left: -9%;
+  /* transform: translateX(-50%); */
+
+}
+.dark .section4 .tab-nav{
   @apply border-b-[1.3px] border-primary
 }
-.light .tab-nav{
+.light .section4 .tab-nav{
   @apply border-b-[1.3px] border-black
 }
-.dark .tab{
+.dark .section4 .tab{
   @apply bg-black text-primary
 }
-.light .tab{
+.light .section4 .tab{
   @apply bg-transparent border-[1.3px] border-black
 }
-.dark h5{
+.dark .section4 h5{
   @apply text-primary
 }
-.light h5{
+.light .section4 h5{
   @apply text-black
 }
-.dark .modebtn{
+.dark .section4 .modebtn{
   @apply text-primary uppercase font-medium rounded-full
 }
-.light .modebtn{
-  @apply text-black text-lg uppercase font-medium px-3 py-2 rounded-full
+.light .section4 .modebtn{
+  @apply text-black uppercase font-medium  rounded-full
 }
 @media screen and  (min-width: 640px) { 
   .btn{
     @apply text-sm uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+  }
+ }
+ @media screen and  (max-width: 639px) { 
+  .right-content::before{
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
   }
  }
  @media screen and  (min-width: 768px) { 

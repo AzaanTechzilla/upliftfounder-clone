@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         work: ['"Helvetica"', 'sans-serif'],
         sofia: ['"Sofia Sans Condensed"', 'sans-serif'],
+        fraunces : ['"Fraunces"', 'sans-serif'],
       },
       colors: {
         btn: '#6b5ee1',
