@@ -451,9 +451,9 @@ function App() {
             <div className="container mx-auto">
               <div className="flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between py-3 sm:py-5 px-4">
                 <ul className="flex gap-2 sm:gap-5">
-                  <li className="sm:text-xl font-fraunces uppercase">What founders say</li>
-                  <li  className="sm:text-xl font-fraunces uppercase"> Manifesto</li>
-                  <li  className="sm:text-xl font-fraunces uppercase"> About Us</li>
+                  <li className="text-sm sm:text-xl font-fraunces uppercase">What founders say</li>
+                  <li  className=" text-sm  sm:text-xl font-fraunces uppercase"> Manifesto</li>
+                  <li  className="text-sm  sm:text-xl font-fraunces uppercase"> About Us</li>
                 </ul>
                 <ul className="flex items-center gap-3 justify-self-end">
                   <li>
