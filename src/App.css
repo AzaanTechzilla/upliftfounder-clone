@@ -24,7 +24,7 @@ transition: all.3s
   content: '';
   position: absolute;
   top: -10%;
-  left: -9%;
+  left: 0%;
   width: 100px; /* Set width */
   height: 100px; /* Set height */
   background-image: url('./assets/column.svg');
@@ -83,7 +83,7 @@ transition: all.3s
   .right-content::before {
     position: absolute;
     top: -10%;
-    left: -11%;
+    left: 0%;
     width: 80px; /* Set width */
     height: 80px; /* Set height */
   }
@@ -91,5 +91,16 @@ transition: all.3s
  @media screen and (min-width: 1024px) {
   .btn{
     @apply text-xl uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+  }
+  .right-content::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    left: 0%;
+    width: 100px; /* Set width */
+    height: 100px; /* Set height */
+    background-image: url('./assets/column.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   }
