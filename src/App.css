@@ -20,13 +20,16 @@ height: 2px;
 bottom: 0;
 transition: all.3s
 }
-.right-content::before{
-  content: url('./assets/column.svg');
-  position:absolute;
+.right-content::before {
+  content: '';
+  position: absolute;
   top: -10%;
   left: -9%;
-  /* transform: translateX(-50%); */
-
+  width: 100px; /* Set width */
+  height: 100px; /* Set height */
+  background-image: url('./assets/column.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .dark .section4 .tab-nav{
   @apply border-b-[1.3px] border-primary
@@ -56,17 +59,33 @@ transition: all.3s
   .btn{
     @apply text-sm uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
   }
+  .right-content::before{
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px; /* Set width */
+    height: 80px; /* Set height */
+  }
  }
  @media screen and  (max-width: 639px) { 
   .right-content::before{
     top: -10%;
     left: 50%;
     transform: translateX(-50%);
+    width: 80px; /* Set width */
+    height: 80px; /* Set height */
   }
  }
  @media screen and  (min-width: 768px) { 
   .btn{
     @apply text-xl uppercase bg-btn py-4 px-5 rounded-full tracking-[0.2rem] text-white
+  }
+  .right-content::before {
+    position: absolute;
+    top: -10%;
+    left: -11%;
+    width: 80px; /* Set width */
+    height: 80px; /* Set height */
   }
  }
  @media screen and (min-width: 1024px) {
