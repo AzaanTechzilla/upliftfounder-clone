@@ -500,7 +500,7 @@ function App() {
           <div className="container mx-auto">
           <div className="py-5 flex justify-between items-center px-4">
                 <p className="text-gray-700">© 2025 Uplift Founders</p>
-                <figure className="w-[10%] h-auto">
+                <figure className="min-w-[10%] h-auto">
                   <img src={LogoBigger} alt="" className="w-full h-auto" />
                 </figure>
                 <ul className="flex items-center gap-4">
