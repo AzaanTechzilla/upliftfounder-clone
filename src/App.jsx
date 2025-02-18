@@ -449,13 +449,13 @@ function App() {
         <footer>
           <div className="footer-wrapper border-b-[1.5px] border-black">
             <div className="container mx-auto">
-              <div className="flex justify-between py-5">
-                <ul className="flex gap-5">
-                  <li className="text-xl font-fraunces uppercase">What founders say</li>
-                  <li  className="text-xl font-fraunces uppercase"> Manifesto</li>
-                  <li  className="text-xl font-fraunces uppercase"> About Us</li>
+              <div className="flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between py-3 sm:py-5 px-4">
+                <ul className="flex gap-3 sm:gap-5">
+                  <li className="sm:text-xl font-fraunces uppercase">What founders say</li>
+                  <li  className="sm:text-xl font-fraunces uppercase"> Manifesto</li>
+                  <li  className="sm:text-xl font-fraunces uppercase"> About Us</li>
                 </ul>
-                <ul className="flex items-center gap-3">
+                <ul className="flex items-center gap-3 justify-self-end">
                   <li>
                     <svg
                       fill="none"
@@ -498,7 +498,7 @@ function App() {
             </div>
           </div>
           <div className="container mx-auto">
-          <div className="py-5 flex justify-between items-center">
+          <div className="py-5 flex justify-between items-center px-4">
                 <p className="text-gray-700">© 2025 Uplift Founders</p>
                 <figure className="w-[10%] h-auto">
                   <img src={LogoBigger} alt="" className="w-full h-auto" />
