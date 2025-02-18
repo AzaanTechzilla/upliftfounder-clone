@@ -450,7 +450,7 @@ function App() {
           <div className="footer-wrapper border-b-[1.5px] border-black">
             <div className="container mx-auto">
               <div className="flex flex-col sm:flex-row gap-5 sm:gap-0 justify-between py-3 sm:py-5 px-4">
-                <ul className="flex gap-3 sm:gap-5">
+                <ul className="flex gap-2 sm:gap-5">
                   <li className="sm:text-xl font-fraunces uppercase">What founders say</li>
                   <li  className="sm:text-xl font-fraunces uppercase"> Manifesto</li>
                   <li  className="sm:text-xl font-fraunces uppercase"> About Us</li>
